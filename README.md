@@ -1,6 +1,8 @@
 # 说明
 
 [android-serialport-api](https://code.google.com/archive/p/android-serialport-api/)
+[![](https://jitpack.io/v/zyssdk/ZXT-AndroidSerialPort.svg)](https://jitpack.io/#zyssdk/ZXT-AndroidSerialPort)
+
 
 原文来自 kongqw/AndroidSerialPort
 
