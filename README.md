@@ -1,8 +1,10 @@
 # 说明
 
 [android-serialport-api](https://code.google.com/archive/p/android-serialport-api/)
+[![](https://jitpack.io/v/zyssdk/ZXT-AndroidSerialPort.svg)](https://jitpack.io/#zyssdk/ZXT-AndroidSerialPort)
 
-![](https://jitpack.io/v/kongqw/AndroidSerialPort.svg)
+
+原文来自 kongqw/AndroidSerialPort
 
 Step 1. Add the JitPack repository to your build file
 
