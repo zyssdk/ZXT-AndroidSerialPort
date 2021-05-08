@@ -2,7 +2,7 @@
 
 [android-serialport-api](https://code.google.com/archive/p/android-serialport-api/)
 
-
+原文来自 kongqw/AndroidSerialPort
 
 Step 1. Add the JitPack repository to your build file
 
