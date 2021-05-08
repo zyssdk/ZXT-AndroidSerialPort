@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "G:/zxt/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DSerialPort_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "G:\\AndroidWorkSpace\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
+    "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\CMakeLists.txt",
+    "G:\\AndroidWorkSpace\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "SerialPort-Debug-arm64-v8a": {
+      "buildCommand": "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\arm64-v8a\" SerialPort",
+      "buildType": "debug",
+      "toolchain": "1738434988",
+      "abi": "arm64-v8a",
+      "artifactName": "SerialPort",
+      "files": [
+        {
+          "src": "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\SerialPort.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libSerialPort.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "1738434988": {
+      "cCompilerExecutable": "G:\\AndroidWorkSpace\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
