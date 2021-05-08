@@ -174,7 +174,6 @@
       "project": {
         "compilerSettingsCacheFolder": "G:\\zxt\\AndroidSerialPort-1.0.1\\.cxx",
         "cxxFolder": "G:\\zxt\\AndroidSerialPort-1.0.1\\.cxx",
-        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -198,7 +197,10 @@
     "objFolder": "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
-      "ARMEABI_V7A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "prefabDirectory": "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\prefab",
     "prefabPackageDirectoryList": []
