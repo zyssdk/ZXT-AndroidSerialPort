@@ -1,3 +1,10 @@
 # ninja log v5
+1	921	653487939	CMakeFiles/SerialPort.dir/SerialPort.c.o	e918a07d5663974b
+923	1732	653487940	G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/build/intermediates/cmake/release/obj/x86_64/libSerialPort.so	52d3cad9856a83a0
 0	7	0	clean	9d195960b73de28
-0	7	0	clean	9d195960b73de28
+30	212	670164790	CMakeFiles/SerialPort.dir/SerialPort.c.o	e918a07d5663974b
+212	564	670164790	G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/build/intermediates/cmake/release/obj/x86_64/libSerialPort.so	52d3cad9856a83a0
+0	9	0	clean	9d195960b73de28
+1	12	0	clean	9d195960b73de28
+25	895	682230767	CMakeFiles/SerialPort.dir/SerialPort.c.o	e918a07d5663974b
+895	2187	682230768	G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/build/intermediates/cmake/release/obj/x86_64/libSerialPort.so	52d3cad9856a83a0

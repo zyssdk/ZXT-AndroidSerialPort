@@ -17,7 +17,7 @@
 rule C_COMPILER__SerialPort
   depfile = $DEP_FILE
   deps = gcc
-  command = G:\AndroidWorkSpace\Sdk\ndk\21.0.6113669\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi19 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
+  command = G:\AndroidWorkSpace\Sdk\ndk\20.0.5594570\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi19 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
   description = Building C object $out
 
 
@@ -25,7 +25,7 @@ rule C_COMPILER__SerialPort
 # Rule for linking C shared library.
 
 rule C_SHARED_LIBRARY_LINKER__SerialPort
-  command = cmd.exe /C "$PRE_LINK && G:\AndroidWorkSpace\Sdk\ndk\21.0.6113669\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi19 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = cmd.exe /C "$PRE_LINK && G:\AndroidWorkSpace\Sdk\ndk\20.0.5594570\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi19 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC $LANGUAGE_COMPILE_FLAGS $ARCH_FLAGS $LINK_FLAGS -shared $SONAME_FLAG$SONAME -o $TARGET_FILE $in $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C shared library $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = G:\AndroidWorkSpace\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HG:\zxt\AndroidSerialPort-1.0.1\SerialPortLibrary\src\main\cpp -BG:\zxt\AndroidSerialPort-1.0.1\SerialPortLibrary\.cxx\cmake\release\armeabi-v7a
+  command = G:\AndroidWorkSpace\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HG:\AndroidGit\AndroidSerialPort-1.0.1\SerialPortLibrary\src\main\cpp -BG:\AndroidGit\AndroidSerialPort-1.0.1\SerialPortLibrary\.cxx\cmake\release\armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

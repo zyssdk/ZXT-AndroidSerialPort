@@ -1,7 +1,7 @@
 [
 {
-  "directory": "G:/zxt/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/debug/x86_64",
-  "command": "G:\\AndroidWorkSpace\\Sdk\\ndk\\21.0.6113669\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DSerialPort_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\SerialPort.dir\\SerialPort.c.o   -c G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\SerialPort.c",
-  "file": "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\SerialPort.c"
+  "directory": "G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/debug/x86_64",
+  "command": "G:\\AndroidWorkSpace\\Sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=G:/AndroidWorkSpace/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=G:/AndroidWorkSpace/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DSerialPort_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\SerialPort.dir\\SerialPort.c.o   -c G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\SerialPort.c",
+  "file": "G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\SerialPort.c"
 }
 ]

@@ -1,20 +1,19 @@
 {
   "buildFiles": [
-    "G:\\AndroidWorkSpace\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\android.toolchain.cmake",
-    "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\CMakeLists.txt",
-    "G:\\AndroidWorkSpace\\Sdk\\ndk\\21.0.6113669\\build\\cmake\\platforms.cmake"
+    "G:\\AndroidWorkSpace\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "G:\\AndroidWorkSpace\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake",
+    "G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\x86_64\" clean"
+    "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\x86_64\" clean"
   ],
-  "buildTargetsCommand": "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "SerialPort-Debug-x86_64": {
       "artifactName": "SerialPort",
-      "buildCommand": "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\x86_64\" SerialPort",
+      "buildCommand": "G:\\AndroidWorkSpace\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\.cxx\\cmake\\debug\\x86_64\" SerialPort",
       "abi": "x86_64",
-      "output": "G:\\zxt\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libSerialPort.so",
-      "runtimeFiles": []
+      "output": "G:\\AndroidGit\\AndroidSerialPort-1.0.1\\SerialPortLibrary\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libSerialPort.so"
     }
   }
 }

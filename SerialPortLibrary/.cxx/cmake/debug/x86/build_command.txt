@@ -1,21 +1,20 @@
 Executable : G:\AndroidWorkSpace\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HG:\zxt\AndroidSerialPort-1.0.1\SerialPortLibrary\src\main\cpp
--DCMAKE_FIND_ROOT_PATH=G:\zxt\AndroidSerialPort-1.0.1\SerialPortLibrary\.cxx\cmake\debug\prefab\x86\prefab
+-HG:\AndroidGit\AndroidSerialPort-1.0.1\SerialPortLibrary\src\main\cpp
 -DCMAKE_BUILD_TYPE=Debug
--DCMAKE_TOOLCHAIN_FILE=G:\AndroidWorkSpace\Sdk\ndk\21.0.6113669\build\cmake\android.toolchain.cmake
+-DCMAKE_TOOLCHAIN_FILE=G:\AndroidWorkSpace\Sdk\ndk\20.0.5594570\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=x86
--DANDROID_NDK=G:\AndroidWorkSpace\Sdk\ndk\21.0.6113669
+-DANDROID_NDK=G:\AndroidWorkSpace\Sdk\ndk\20.0.5594570
 -DANDROID_PLATFORM=android-19
 -DCMAKE_ANDROID_ARCH_ABI=x86
--DCMAKE_ANDROID_NDK=G:\AndroidWorkSpace\Sdk\ndk\21.0.6113669
+-DCMAKE_ANDROID_NDK=G:\AndroidWorkSpace\Sdk\ndk\20.0.5594570
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=G:\zxt\AndroidSerialPort-1.0.1\SerialPortLibrary\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=G:\AndroidGit\AndroidSerialPort-1.0.1\SerialPortLibrary\build\intermediates\cmake\debug\obj\x86
 -DCMAKE_MAKE_PROGRAM=G:\AndroidWorkSpace\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=19
 -DANDROID_TOOLCHAIN=clang
--BG:\zxt\AndroidSerialPort-1.0.1\SerialPortLibrary\.cxx\cmake\debug\x86
+-BG:\AndroidGit\AndroidSerialPort-1.0.1\SerialPortLibrary\.cxx\cmake\debug\x86
 -GNinja
 jvmArgs : 
 

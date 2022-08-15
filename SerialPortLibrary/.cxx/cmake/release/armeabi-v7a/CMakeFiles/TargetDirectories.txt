@@ -1,3 +1,3 @@
-G:/zxt/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/release/armeabi-v7a/CMakeFiles/SerialPort.dir
-G:/zxt/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
-G:/zxt/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/release/armeabi-v7a/CMakeFiles/SerialPort.dir
+G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+G:/AndroidGit/AndroidSerialPort-1.0.1/SerialPortLibrary/.cxx/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir

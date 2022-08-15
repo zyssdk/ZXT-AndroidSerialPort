@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion '30.0.1'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 30
+        minSdkVersion 20
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         externalNativeBuild {
@@ -27,6 +27,30 @@ android {
             path "src/main/cpp/CMakeLists.txt"
         }
     }
+
+    task makeJar(type: Copy) {
+
+        //删除存在的
+        delete 'build/libs/SerialPortJar.jar'
+
+        //设置拷贝的文件
+        from('build/intermediates/aar_main_jar/release/')
+
+        //打进jar包后的文件目录
+        into('build/libs/')
+
+        //将classes.jar放入build/libs/目录下
+        //include ,exclude参数来设置过滤
+        //（我们只关心classes.jar这个文件）
+        include('classes.jar')
+
+        //重命名
+        rename ('classes.jar', 'SerialPortJar.jar')
+
+    }
+
+    makeJar.dependsOn(build)
+
 }
 
 dependencies {

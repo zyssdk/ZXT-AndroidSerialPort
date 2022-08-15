@@ -1,5 +1,4 @@
 # ninja log v5
 0	7	0	clean	9d195960b73de28
-0	7	0	clean	9d195960b73de28
-1	205	642144238	CMakeFiles/SerialPort.dir/SerialPort.c.o	d92b69891c015dc9
-206	303	642144238	G:/zxt/AndroidSerialPort-1.0.1/SerialPortLibrary/build/intermediates/cmake/debug/obj/x86_64/libSerialPort.so	5d51bd765fb30089
+0	8	0	clean	9d195960b73de28
+0	8	0	clean	9d195960b73de28
